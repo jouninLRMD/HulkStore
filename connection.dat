@@ -1,0 +1,5 @@
+host=jdbc:mysql://localhost:3306/bd_Todo1_?useSSL=false
+usuario=cidenet
+password=Cidenet
+
+No editar este archivo.
