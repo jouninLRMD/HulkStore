@@ -38,4 +38,14 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
   2020-03-12 01:07:57 FATAL ResourceManager:136 - Connection failed = com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+  2020-03-12 01:10:55 INFO  HulkStoreIni:35 - Initializing HulkStore...
+  2020-03-12 01:10:56 INFO  HulkStoreIni:38 - LookAndFeel loaded = 'com.jtattoo.plaf.noire.NoireLookAndFeel'
+  2020-03-12 01:10:56 INFO  ResourceManager:121 - Establishing connection...
+  2020-03-12 01:10:56 DEBUG ResourceManager:36 - Getting connection data...
+  2020-03-12 01:10:56 DEBUG ResourceManager:49 - Connection data loaded
+  2020-03-12 01:10:56 DEBUG ResourceManager:152 - Initializing Driver...
+  2020-03-12 01:10:56 DEBUG ResourceManager:157 - Driver loaded = com.mysql.cj.jdbc.Driver
+  2020-03-12 01:11:04 FATAL ResourceManager:136 - Connection failed = com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
   

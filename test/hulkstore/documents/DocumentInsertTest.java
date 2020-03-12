@@ -16,17 +16,18 @@ import org.junit.runners.Parameterized;
 public class DocumentInsertTest
 {
     private static final DocumentDao DOCUMENTDAO = DaoFactory.createDocumentDao();
-    private int document_Id;
-    private String documentDescription;
-    private short state;
-    private int expected;
+    private final int document_Id;
+    private final String documentDescription;
+    private final short state;
+    private final int expected;
+    private final int documentId;
 
     public DocumentInsertTest(int document_Id, String documentDescription, short state)
     {
-        this.document_Id = document_Id;
+        this.documentId = document_Id;
         this.documentDescription = documentDescription;
         this.state = state;
-        this.expected = this.document_Id;
+        this.expected = this.documentId;
     }
 
     @Parameterized.Parameters
